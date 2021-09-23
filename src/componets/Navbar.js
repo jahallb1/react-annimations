@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import styled from "styled-components";
 
+const Nav = styled.nav`
+    height: 60px;
+    background-color: red;
+`;
+
+const Logo = styled
 const Navbar = () => {
     return (
-        <div>
-            NavBar
-        </div>
+        <Nav>
+            <Logo>EIXL</Logo>
+            <MenuBars />
+            <NavMenu>
+
+            </NavMenu>
+           <h1>NavBar</h1> 
+        </Nav>
     )
 }
 
