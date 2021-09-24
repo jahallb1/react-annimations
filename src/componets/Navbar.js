@@ -12,7 +12,7 @@ padding: 1rem 2rem;
 z-index: 100;
 position: fixed;
 width: 100%;
-background-color: #000;
+background-color: red;
 `;
 
 const NavLink = css`
@@ -59,7 +59,7 @@ const Navbar = () => {
                 ))}
             </NavMenu>
            <NavBtn>
-               <Button to="/contact">
+               <Button to="/contact" primary='true'>
                    Contact Us
                </Button>
            </NavBtn>
